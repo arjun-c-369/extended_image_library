@@ -23,8 +23,8 @@ void clearMemoryImageCache([String? name]) {
       imageCaches.remove(name);
     }
   } else {
-    PaintingBinding.instance.imageCache?.clear();
-    PaintingBinding.instance.imageCache?.clearLiveImages();
+    PaintingBinding.instance.imageCache.clear();
+    PaintingBinding.instance.imageCache.clearLiveImages();
   }
 }
 
